@@ -1,4 +1,4 @@
-# Named Entity Recognition (NER) with BERT and CRF
+# Named Entity Recognition with BERT and RoBERTa
 
 ## Project Overview
 

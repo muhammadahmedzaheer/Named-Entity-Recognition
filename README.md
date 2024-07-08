@@ -13,7 +13,7 @@ The dataset used in this project is a labeled NER dataset in CSV format, contain
 The project is structured as follows:
 
 - `notebooks`: Contains Jupyter notebooks for exploratory data analysis and model training.
-- `requirements`: States the requirements needed to run this project.
+- `requirements`: Dependencies needed to run this project.
 
 ## Installation
 
@@ -24,6 +24,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-# Data Preprocessing
-First, ensure your dataset is loaded.
+### Data Preprocessing
+First, ensure your dataset is loaded into the notebook.
 

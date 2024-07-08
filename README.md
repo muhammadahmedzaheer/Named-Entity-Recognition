@@ -23,7 +23,13 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+1. Data Preprocessing: First, ensure your dataset is loaded into the notebook.
+2. Model Training: The model training script initializes the BERT model with CRF and trains it on the preprocessed dataset.
+3. Evaluation: After training, the model is evaluated on the test set to measure its performance.
+4. Results: The project includes scripts for visualizing the results, such as the distribution of named entity tags and the confusion matrix.
 
-### Data Preprocessing
-First, ensure your dataset is loaded into the notebook.
+## Results
+The model's performance is evaluated using metrics like accuracy and F1 score. The results demonstrate the effectiveness of combining BERT with CRF for NER tasks. This project highlights the capabilities of using advanced models like BERT and CRF for named entity recognition. The model can be further improved by fine-tuning and experimenting with different hyperparameters.
 
+## Acknowledgements
+Hugging Face for providing the transformer models and tokenizers.
